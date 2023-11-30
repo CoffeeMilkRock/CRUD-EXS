@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "demo_db_8niv_user",
+    "password": "2txlX6CekRyLb9AKe9j3xhJc2ppB0oIv",
+    "database": "demo_db_8niv",
+    "host": "dpg-clfb5vvjc5ks73e5n810-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ttbhanh",
+    "password": "5u89vX7AhNbF2hmIFrOitKoTcAA0HV3N",
+    "database": "tuandb",
+    "host": "dpg-clfb5a7jc5ks73e5n3n0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
